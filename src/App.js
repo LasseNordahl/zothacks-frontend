@@ -13,7 +13,7 @@ import { UserList } from "app/views";
 function App() {
   return (
     <div className="app fill-view">
-      <Router>
+      <Router basename="/zothacks-frontend">
         <Switch>
           <Route 
             exact path={"/"}
